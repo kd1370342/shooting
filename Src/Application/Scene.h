@@ -1,4 +1,6 @@
 #pragma once
+#include"player/player.h"
+
 
 class Scene
 {
