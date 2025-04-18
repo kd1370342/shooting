@@ -12,7 +12,6 @@ public:
 
 	// アプリケーション実行
 	void Execute();
-	int test;
 
 	// アプリケーション終了
 	void End() { m_endFlag = true; }
