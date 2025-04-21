@@ -43,8 +43,11 @@
     <Filter Include="Src\System\Audio">
       <UniqueIdentifier>{667d1cb1-5ae5-476f-acd5-14b7d294a95a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Src\Application\player">
-      <UniqueIdentifier>{c526ee33-e571-4bfa-b3a4-7936a07621bb}</UniqueIdentifier>
+    <Filter Include="Src\Application\BeseObject">
+      <UniqueIdentifier>{e83f125d-8e23-46a8-a38d-a8be2d37db61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\BeseObject\Player">
+      <UniqueIdentifier>{070b6375-2700-422a-b7ff-e59d85338f3e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -141,8 +144,11 @@
     <ClInclude Include="Src\Application\Scene.h">
       <Filter>Src\Application</Filter>
     </ClInclude>
-    <ClInclude Include="Src\Application\player\player.h">
-      <Filter>Src\Application\player</Filter>
+    <ClInclude Include="Src\Application\BeseObject\BeseObject.h">
+      <Filter>Src\Application\BeseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\BeseObject\Player\Player.h">
+      <Filter>Src\Application\BeseObject\Player</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -209,8 +215,11 @@
     <ClCompile Include="Src\Application\Scene.cpp">
       <Filter>Src\Application</Filter>
     </ClCompile>
-    <ClCompile Include="Src\Application\player\player.cpp">
-      <Filter>Src\Application\player</Filter>
+    <ClCompile Include="Src\Application\BeseObject\BeseObject.cpp">
+      <Filter>Src\Application\BeseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\BeseObject\Player\Player.cpp">
+      <Filter>Src\Application\BeseObject\Player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
