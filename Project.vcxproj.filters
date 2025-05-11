@@ -49,6 +49,24 @@
     <Filter Include="Src\Application\BeseObject\Player">
       <UniqueIdentifier>{070b6375-2700-422a-b7ff-e59d85338f3e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Src\Application\BeseObject\Bullet">
+      <UniqueIdentifier>{cc4ec56f-526f-4265-b7e7-5239252a3b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\BeseObject\Enemy">
+      <UniqueIdentifier>{2428a02c-a9f7-48fa-95a2-e537f17fdd46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\TitleScene">
+      <UniqueIdentifier>{d814fb98-0b50-48fd-9319-0ce6948d531d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\ResultScene">
+      <UniqueIdentifier>{a2954fb5-b9df-49e0-9221-69e72d3afad1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\BeseObject\Enemy\EnemyBullet">
+      <UniqueIdentifier>{6dd56d53-fd32-49b5-b649-c1b67d6a8ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\BeseObject\Bomb">
+      <UniqueIdentifier>{7b74f8de-2f21-468f-9d6b-cb356a0735f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Pch.h">
@@ -150,6 +168,30 @@
     <ClInclude Include="Src\Application\BeseObject\Player\Player.h">
       <Filter>Src\Application\BeseObject\Player</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Application\BeseObject\Enemy\Enemy.h">
+      <Filter>Src\Application\BeseObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\BeseObject\Bullet\Bullet.h">
+      <Filter>Src\Application\BeseObject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\TitleScene\Title.h">
+      <Filter>Src\Application\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\TitleScene\Result.h">
+      <Filter>Src\Application\ResultScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\BeseObject\Enemy\EnemyBullet\EnemyBullet.h">
+      <Filter>Src\Application\BeseObject\Enemy\EnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\BeseObject\Enemy\Enemy2.h">
+      <Filter>Src\Application\BeseObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\BeseObject\Enemy\Enemy3.h">
+      <Filter>Src\Application\BeseObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\BeseObject\Bomb\Bomb.h">
+      <Filter>Src\Application\BeseObject\Bomb</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Pch.cpp">
@@ -220,6 +262,30 @@
     </ClCompile>
     <ClCompile Include="Src\Application\BeseObject\Player\Player.cpp">
       <Filter>Src\Application\BeseObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\BeseObject\Enemy\Enemy.cpp">
+      <Filter>Src\Application\BeseObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\BeseObject\Bullet\Bullet.cpp">
+      <Filter>Src\Application\BeseObject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\TitleScene\Title.cpp">
+      <Filter>Src\Application\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\ResultScene\Result.cpp">
+      <Filter>Src\Application\ResultScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\BeseObject\Enemy\EnemyBullet\EnemyBullet.cpp">
+      <Filter>Src\Application\BeseObject\Enemy\EnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\BeseObject\Enemy\Enemy2.cpp">
+      <Filter>Src\Application\BeseObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\BeseObject\Enemy\Enemy3.cpp">
+      <Filter>Src\Application\BeseObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\BeseObject\Bomb\Bomb.cpp">
+      <Filter>Src\Application\BeseObject\Bomb</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

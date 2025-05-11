@@ -3,7 +3,7 @@
 class BeseObject
 {
 public:
-	BeseObject(){}
+	BeseObject() {}
 	~BeseObject() { Release(); }
 
 	virtual void Draw();
@@ -15,11 +15,12 @@ protected:
 
 	virtual void Release();
 
-	KdTexture m_tex;
+	KdTexture* m_tex;
+	Math::Matrix m_mat;
 
 	Math::Vector2 m_pos = {};
 	Math::Vector2 m_move = {};
 
-	bool aliveFlg;
+	bool m_aliveFlg = true;
 
 };
